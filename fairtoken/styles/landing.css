@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Druk Text";
+  src: local("Druk Text Wide Cyr Medium"), local("Druk-Text-Wide-Cyr-Medium"), url("../fonts/DrukTextWideCyrMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+.landing_main {
+  margin: 0;
+  padding: 0;
+  color: #fff !important;
+  background: #070707;
+  text-transform: uppercase !important;
+  font-family: "Druk Text";
+}
+.landing_main .landing_sectionHeader {
+  font-size: 55px;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+}
+.landing_main .landing_textXl {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.landing_main .landing_textXXL {
+  font-size: 101px;
+}
+.landing_main .landing_textMd {
+  font-size: 25px;
+}
+.landing_main .landing_textCommon {
+  font-size: 15px;
+}
+.landing_main .landing_textGreen {
+  color: #6bc2a3;
+}
+.landing_main .landing_textMinor {
+  font-size: 10px;
+  color: #5f5f5f;
+  text-transform: uppercase;
+}
+.landing_main .landing_hA {
+  height: auto !important;
+}
+.landing_main .landing_watchBtn {
+  border-radius: 100%;
+  color: #0e1010;
+  background: #00bfc9;
+  width: 70px;
+  height: 70px;
+  border: none;
+}
+.landing_main .landing_promo {
+  background-image: url(../img/landing_promoBg.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.landing_main .landing_promo .landing_promoMain {
+  margin-top: 70px;
+}
+.landing_main .landing_promo .landing_promoMain .landing_textXl {
+  text-align: center;
+}
+.landing_main .landing_promo .landing_menu {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.landing_main .landing_promo .landing_menu .landing_menuItem {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.landing_main .landing_promo .landing_promoMain_contract {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.landing_main .landing_promo .landing_promoMain_contract .d-flex {
+  justify-content: center;
+  margin-top: 50px;
+}
+.landing_main .landing_promo .landing_promoMain_contract .landing_textCommon {
+  text-align: center;
+  margin-top: 50px;
+}
+.landing_main .landing_promo .landing_promoMain_contract .landing_watch {
+  padding: 10px;
+  margin-top: 60px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0e1010;
+}
+.landing_main .landing_promo .landing_promoMain_contract .landing_watch .landing_watchBtn {
+  border-radius: 100%;
+  color: #0e1010;
+  background: #00bfc9;
+  width: 70px;
+  height: 70px;
+  border: none;
+  margin-right: 10px;
+}
+.landing_main .landing_promo .landing_promoMain_contract .landing_watch .landing_textCommon {
+  margin-top: 0;
+}
+.landing_main .landing_tokenomics {
+  margin-top: 140px;
+}
+.landing_main .landing_tokenomics .landing_tokenomicsMain {
+  margin-top: 80px;
+}
+.landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex {
+  justify-content: space-between;
+  align-items: center;
+}
+.landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_textCommon,
+.landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_tokenomicsPie {
+  width: 49%;
+}
+.landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_textCommon {
+  text-transform: uppercase;
+}
+.landing_main .landing_lottery {
+  margin-top: 140px;
+}
+.landing_main .landing_lottery .landing_lotteryMain {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 100px;
+  border: 4px solid #56becf;
+  padding: 25px;
+}
+.landing_main .landing_lottery .landing_lotteryMain .landing_lotteryMain_item {
+  width: 33%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing_main .landing_lottery .landing_lotteryMain .landing_lotteryMain_item:not(:last-child) {
+  border-right: 3px solid #56becf;
+}
+.landing_main .landing_winners {
+  margin-top: 140px;
+}
+.landing_main .landing_winners .landing_winnersMore {
+  margin-top: 50px;
+  text-align: center;
+}
+.landing_main .landing_winners .landing_winnersMain {
+  border: 3px solid #fff;
+  border-radius: 9px;
+  margin-top: 80px;
+  height: 253.5px;
+  overflow-y: hidden;
+}
+.landing_main .landing_winners .landing_winnersMain .landing_winnersMain_line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.landing_main .landing_winners .landing_winnersMain .landing_winnersMain_line .landing_winnersMain_lineItem {
+  width: 34%;
+  border: 1px solid #fff;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.landing_main .landing_bgWraper {
+  background-image: url(../img/landing_socialsBg.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+.landing_main .landing_social {
+  margin-top: 140px;
+  padding-bottom: 110px;
+}
+.landing_main .landing_social .landing_textXl {
+  text-align: center;
+}
+.landing_main .landing_social .landing_socialMain {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.landing_main .landing_social .landing_socialMain .landing_watchBtn {
+  font-size: 44px;
+}
+
+@media screen and (max-width: 767px) {
+  .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex {
+    flex-wrap: wrap;
+  }
+  .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_textCommon,
+.landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_tokenomicsPie {
+    width: 100%;
+  }
+  .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_tokenomicsPie {
+    margin-bottom: 50px;
+  }
+  .landing_main .landing_winners .landing_winnersMain {
+    zoom: 0.6;
+  }
+  .landing_main .landing_social .landing_socialMain .landing_watchBtn {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .landing_main .landing_promo .landing_promoMain_contract .d-flex {
+    zoom: 0.6;
+  }
+  .landing_main .landing_promo .landing_menu {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 556px) {
+  .landing_main .landing_winners .landing_winnersMain {
+    overflow-x: scroll;
+  }
+  .landing_main .landing_winners .landing_winnersMain .landing_winnersMain_line {
+    width: 874px;
+    min-width: 874px;
+  }
+  .landing_main .landing_sectionHeader {
+    font-size: 33px;
+  }
+  .landing_main .landing_promo .landing_promoMain_contract .d-flex {
+    zoom: 0.5;
+  }
+  .landing_main .landing_social .landing_socialMain {
+    width: 100%;
+  }
+  .landing_main .landing_promo .landing_menu .landing_menuItem {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .landing_main .landing_textXXL {
+    font-size: 80px;
+  }
+  .landing_main .landing_promo .landing_menu .landing_menuItem {
+    font-size: 9px;
+  }
+}/*# sourceMappingURL=landing.css.map */
