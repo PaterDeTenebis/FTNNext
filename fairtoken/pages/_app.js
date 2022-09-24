@@ -1,5 +1,7 @@
 import '../styles/globals.css';
 import '../styles/landing.css';
+import '../styles/cabinet.css';
+
 import Head from 'next/head';
 import Script from 'next/script';
 

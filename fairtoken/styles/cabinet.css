@@ -1,0 +1,285 @@
+.cabinetWrapper {
+margin: 0;
+padding: 0;
+background-color: #070707;
+height: 100vh;
+background-image: url(../img/landing_socialsBg.png);
+background-size: cover;
+background-position: bottom left;
+background-repeat: no-repeat;
+padding: 0 20px;
+font-family: "Druk Text";
+
+}
+
+.cabinetWrapper .cabinet_itemBordered {
+border-radius: 9px;
+border: 3px solid #56becf;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+padding: 15px;
+}
+
+.cabinetWrapper .cabinet_textSecondary {
+color: #c3c3c3;
+font-size: 15px;
+}
+
+.cabinetWrapper .cabinet_textLight {
+color: #fff;
+}
+
+.cabinetWrapper .cabinet_textLg {
+color: #fff;
+font-size: 35px;
+}
+
+.cabinetWrapper .cabinet_textMd {
+font-size: 30px;
+}
+
+.cabinetWrapper .cabinet_lableG {
+color: #56becf;
+}
+
+.cabinetWrapper .cabinet_buy {
+background: #00c3a3;
+border: none;
+border-radius: 9px;
+color: #070707;
+}
+
+.cabinetWrapper .cabinet_buy:hover {
+-webkit-box-shadow: 0px 0px 10px #56becf;
+        box-shadow: 0px 0px 10px #56becf;
+}
+
+.cabinetWrapper .cabinet_sell {
+border: 2px solid #cf5656;
+color: #56becf;
+background: none;
+border-radius: 9px;
+}
+
+.cabinetWrapper .cabinet_sell:hover {
+-webkit-box-shadow: 0px 0px 10px #cf5656;
+        box-shadow: 0px 0px 10px #cf5656;
+}
+
+.cabinetWrapper .cabinet_nav {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+padding: 20px;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+width: 100%;
+margin-bottom: 50px;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_navBtnHolder {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_navBtnHolder .cabinet_connect {
+background: -webkit-gradient(linear, left top, left bottom, from(#00c3a3), to(#56becf));
+background: linear-gradient(#00c3a3, #56becf);
+border: none;
+border-radius: 9px;
+color: #070707;
+padding: 10px;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_navBtnHolder .cabinet_connect:hover {
+-webkit-box-shadow: 0px 0px 10px #56becf;
+        box-shadow: 0px 0px 10px #56becf;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_navBtnHolder .cabinet_Close {
+border: 2px solid #56becf;
+color: #56becf;
+padding: 10px;
+margin-left: 10px;
+background: none;
+border-radius: 9px;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_navBtnHolder .cabinet_Close:hover {
+-webkit-box-shadow: 0px 0px 10px #56becf;
+        box-shadow: 0px 0px 10px #56becf;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_logo {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+text-decoration: none;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_logo .cabinet_logoImg {
+width: 85px;
+height: 55px;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_logo .cabinet_logoText {
+color: #fff;
+font-size: 40px;
+text-transform: uppercase;
+line-height: 1;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
+}
+
+.cabinetWrapper .cabinet_nav .cabinet_logo .cabinet_logoText .cabinet_logoTextSm {
+font-size: 15px;
+}
+
+.cabinetWrapper .cabinet_marketHolder {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+padding: 20px 0;
+margin-bottom: 50px;
+-webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: end;
+}
+
+.cabinetWrapper .cabinet_marketHolder .cabinet_textMd {
+margin-right: 20px;
+}
+
+.cabinetWrapper .cabinet_marketHolder .cabinet_buy {
+padding: 20px;
+font-size: 20px;
+color: #fff;
+}
+
+.cabinetWrapper .cabinet_marketHolder .cabinet_sell {
+color: #cf5656;
+padding: 20px;
+font-size: 20px;
+margin-left: 20px;
+}
+
+.cabinetWrapper .cabinet_topLine {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+margin-bottom: 50px;
+}
+
+.cabinetWrapper .cabinet_topLine .cabinet_itemBordered {
+width: 32%;
+height: 284px;
+}
+
+.cabinetWrapper .cabinet_botLine {
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+        justify-content: space-between;
+}
+
+.cabinetWrapper .cabinet_botLine .cabinet_itemBordered {
+width: 32%;
+}
+
+@media screen and (max-width: 1429px) {
+    .cabinetWrapper .cabinet_textLg {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1179px) {
+    .cabinetWrapper .cabinet_topLine, .cabinetWrapper .cabinet_botLine {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .cabinetWrapper .cabinet_topLine .cabinet_itemBordered, .cabinetWrapper .cabinet_botLine .cabinet_itemBordered {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto;
+    }
+    .cabinetWrapper {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 606px) {
+    .cabinetWrapper .cabinet_marketHolder {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .cabinetWrapper .cabinet_marketHolder .cabinet_buy, .cabinetWrapper .cabinet_marketHolder .cabinet_sell {
+        width: 100%;
+    }
+    .cabinetWrapper .cabinet_marketHolder .cabinet_buy {
+        margin: 10px 0;
+    }
+    .cabinetWrapper .cabinet_marketHolder .cabinet_sell {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 443px) {
+    .cabinetWrapper .cabinet_nav .cabinet_logo .cabinet_logoText {
+        font-size: 30px;
+    }
+    .cabinetWrapper .cabinet_botLine .cabinet_itemBordered {
+        overflow-x: scroll;
+    }
+    .cabinetWrapper .table {
+        width: 367px;
+    }
+    .cabinetWrapper .cabinet_textLg {
+        font-size: 20px;
+    }
+    .cabinetWrapper .cabinet_textSecondary {
+        font-size: 11px;
+    }
+    .cabinetWrapper .cabinet_nav {
+        flex-direction: column;
+    }
+    .cabinetWrapper .cabinet_nav .cabinet_logo {
+        margin-bottom: 20px;
+    }
+}
+  
