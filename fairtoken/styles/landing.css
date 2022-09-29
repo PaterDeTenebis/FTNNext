@@ -123,7 +123,8 @@
 }
 .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_textCommon,
 .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_tokenomicsPie {
-  width: 49%;
+  width: 49%!important;
+  height: auto!important;
 }
 .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_textCommon {
   text-transform: uppercase;
