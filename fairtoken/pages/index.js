@@ -2,7 +2,8 @@ import $ from 'jquery';
 import React, { useEffect, useRef } from 'react';
 
 import Chart from 'chart.js/auto';
-
+import Annotation from 'chartjs-plugin-annotation';
+Chart.register(Annotation);
 export default function Home() {
   const canvasEl = useRef(null);
   useEffect(() => {
@@ -31,10 +32,43 @@ export default function Home() {
       data: data,
       options: {
         plugins: {
+          tooltip: {
+            enabled: false
+          },
           legend: {
             display: false,
             labels: {
               color: 'rgb(255, 99, 132)',
+            },
+          },
+          autocolors: false,
+          annotation: {
+            annotations: {
+              label1: {
+                type: 'label',
+                xValue: 2.5,
+                yValue: 60,
+                xAdjust: 100,
+                yAdjust: 300,
+                backgroundColor: 'rgba(245,245,245, 0)',
+                content: ['90%'],
+                font: {
+                  size: 88,
+                },
+              },
+              label2: {
+                type: 'label',
+                xValue: 2.5,
+                yValue: 60,
+                xAdjust: -120,
+                yAdjust: -400,
+                backgroundColor: 'rgba(245,245,245, 0)',
+                content: ['10%'],
+                color: 'rgba(245,245,245)',
+                font: {
+                  size: 88,
+                },
+              },
             },
           },
         },

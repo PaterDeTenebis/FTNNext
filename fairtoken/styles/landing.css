@@ -211,7 +211,7 @@
   }
   .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_textCommon,
 .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_tokenomicsPie {
-    width: 100%;
+    width: 100%!important;
   }
   .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex .landing_tokenomicsPie {
     margin-bottom: 50px;
