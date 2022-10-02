@@ -49,7 +49,9 @@ export default function Home() {
                 xValue: 2.5,
                 yValue: 60,
                 xAdjust: 100,
+                xMax:100,
                 yAdjust: 300,
+                yMax:300,
                 backgroundColor: 'rgba(245,245,245, 0)',
                 content: ['90%'],
                 font: {

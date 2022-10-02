@@ -206,6 +206,7 @@
 }
 
 @media screen and (max-width: 767px) {
+  
   .landing_main .landing_tokenomics .landing_tokenomicsMain .d-flex {
     flex-wrap: wrap;
   }
