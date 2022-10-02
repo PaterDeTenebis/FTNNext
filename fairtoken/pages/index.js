@@ -1,27 +1,21 @@
 import $ from 'jquery';
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef } from 'react';
 
 import Chart from 'chart.js/auto';
 
 export default function Home() {
   const canvasEl = useRef(null);
   useEffect(() => {
-    const ctx = canvasEl.current.getContext("2d");
+    const ctx = canvasEl.current.getContext('2d');
     // const ctx = document.getElementById("myChart");
     const weight = [90, 10];
-    const labels = [
-      "90%",
-      "10%",
-    ];
+    const labels = ['90%', '10%'];
     const data = {
       labels: labels,
       datasets: [
         {
-          backgroundColor: [
-            "#00c1c2",
-            "#191919",
-          ],
-          label: "Tokenomics",
+          backgroundColor: ['#00c1c2', '#191919'],
+          label: 'Tokenomics',
           data: weight,
           fill: true,
           borderWidth: 0,
@@ -29,22 +23,22 @@ export default function Home() {
           // lineTension: 0.2,
           // pointBackgroundColor: colors.purple.default,
           // pointRadius: 3
-        }
-      ]
+        },
+      ],
     };
     const config = {
-      type: "pie",
+      type: 'pie',
       data: data,
       options: {
         plugins: {
-            legend: {
-                display: false,
-                labels: {
-                    color: 'rgb(255, 99, 132)'
-                }
-            }
-        }
-    }
+          legend: {
+            display: false,
+            labels: {
+              color: 'rgb(255, 99, 132)',
+            },
+          },
+        },
+      },
     };
     const myLineChart = new Chart(ctx, config);
 
@@ -102,7 +96,7 @@ export default function Home() {
           <div className="landing_sectionHeader">tokenomics</div>
           <div className="landing_tokenomicsMain">
             <div className="d-flex">
-              <canvas id="myChart" className="landing_tokenomicsPie" ref={canvasEl}  />
+              <canvas id="myChart" className="landing_tokenomicsPie" ref={canvasEl} />
               {/* <img src="img/landing_tokenomics.png" alt="" className="landing_tokenomicsPie" /> */}
               <div className="landing_textCommon">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab perspiciatis dicta optio
