@@ -12,6 +12,12 @@ font-family: "Druk Text";
 
 }
 
+.cabinetWrapper .cabinet_tableBtnHolder {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 .cabinetWrapper .cabinet_itemBordered {
 border-radius: 9px;
 border: 3px solid #56becf;

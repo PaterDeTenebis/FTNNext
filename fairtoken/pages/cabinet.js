@@ -62,8 +62,9 @@ export default function Home() {
         </div>
         <div class="cabinet_botLine">
           <div class="cabinet_itemBordered">
-            <div class="cabinet_itemBordered_side cabinet_textSecondary">
+            <div class="cabinet_itemBordered_side cabinet_textSecondary cabinet_tableBtnHolder">
               Total Locked: 10 000 BNB
+              <button class="cabinet_buy">Unlock</button>
             </div>
             <table class="table cabinet_textLight">
               <thead>
@@ -87,8 +88,10 @@ export default function Home() {
             </table>
           </div>
           <div class="cabinet_itemBordered">
-            <div class="cabinet_itemBordered_side cabinet_textSecondary">
+            <div class="cabinet_itemBordered_side cabinet_textSecondary cabinet_tableBtnHolder">
               Total Locked: 10 000 BNB
+              <button class="cabinet_buy">Harvest</button>
+
             </div>
             <table class="table cabinet_textLight">
               <thead>
